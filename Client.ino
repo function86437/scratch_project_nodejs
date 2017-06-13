@@ -6,10 +6,10 @@
 WiFiClient wifiClient;
 
 //config
-#define SSID "LALALA"
-#define PASSWD "12346789"
-#define TCP_IP "192.168.75.98"
-#define TCP_PORT 8888
+#define SSID "SSID"
+#define PASSWD "PASSWD"
+#define TCP_IP "IP"
+#define TCP_PORT PORT
 
 #define deviceID 1
 
@@ -18,8 +18,6 @@ int in_msg = D0;
 int out_msg = D2;
 int wifi_connect = D5;
 
-//the Wifi radio's status
-int status = WL_IDLE_STATUS;
 
 char _buffer[3];
 
