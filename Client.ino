@@ -45,7 +45,7 @@ void setup() {
    while ( WiFi.waitForConnectResult() != WL_CONNECTED) {
     WiFi.begin(SSID, PASSWD);
     Serial.println("Retry");
-    delay(1000);
+    delay(100);
    }
    
    Serial.println("Conneted");
