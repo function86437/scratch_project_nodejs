@@ -1,11 +1,8 @@
 //config
-var HOST = '192.168.0.108';
-var PORT = 8888;
+var HOST = 'IP';
+var PORT = PORT;
 //Loadd TCP library
 var net = require('net');
-
-
-var device;
 
 //clients
 var client = {
@@ -28,6 +25,7 @@ net.createServer(function (socket){
 	//listening upcoming data
 	socket.on('data', function(data){
 		console.log('From:  '+ socket.remoteAddress+ ':'+ data);
+
 		var ID = String(data);
 
 		//Check incoming data with specific character
@@ -61,6 +59,9 @@ net.createServer(function (socket){
 }).listen(PORT, HOST);
 
 console.log('Server listening on '+ HOST+ ':'+ PORT);
+
+
+
 
 
 /*
