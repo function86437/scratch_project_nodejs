@@ -27,3 +27,13 @@ This is a project rewrite in nodejs. Source is from https://github.com/SarahYuHa
 	
 </ol>
 
+# Start
+<ol>
+	<li>Connect Wemos-D1-mini(wifionuno) to UNO board <code>Uno -> D1-mini \n
+								 3  ->   tx
+								 2  ->   rx
+								 5v ->   5v
+								 GND->   G</code></li>
+	<li>Let Scratch listen on UNO. Simulate button pressed by connecting D2 and G on D1-mini</li>
+
+</ol>
