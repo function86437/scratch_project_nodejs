@@ -41,8 +41,7 @@ This is a project rewrite in nodejs. Source is from https://github.com/SarahYuHa
 								 <code>5v ->   5v  </code> <br>
 								 <code>GND->   G</code></li>
 								 
-								 <img src="https://drive.google.com/file/d/0B5qUFLJ-331Vcmd2TUdLbjR5djQ/view?usp=sharing" alt="">
-</img>
+	<img src="https://lh3.googleusercontent.com/qb9FDnFTWTUAd1dwytYAktISeKx6rU8EpQkLWsSj7GIGXRC3YgZ9uNhE_G-mn0CHWJrjekHfjHI_QRU=w938-h703-rw" alt="">
 	<li>Import project in Scratch and then press green flagto start the stage.</li>
 	<li>Let Scratch listen on UNO. Simulate button pressed by connecting pin of D2 and GND on D1-mini</li>
 
