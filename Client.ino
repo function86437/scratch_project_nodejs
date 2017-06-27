@@ -6,10 +6,10 @@
 WiFiClient wifiClient;
 
 //config
-#define SSID "LALALA"
-#define PASSWD "12346789"
-#define TCP_IP "192.168.0.107"
-#define TCP_PORT 8888 
+#define SSID "SSID name"
+#define PASSWD "PASSWORD"
+#define TCP_IP "IP"
+#define TCP_PORT PORT 
 
 #define deviceID 2
 
