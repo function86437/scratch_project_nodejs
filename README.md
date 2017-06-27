@@ -35,7 +35,7 @@ This is a project rewrite in nodejs. Source is from https://github.com/SarahYuHa
 
 # Start
 <ol>
-	<li>Connect Wemos-D1-mini(wifionuno) to UNO board <code>Uno -> D1-mini</code><br> 
+	<li>Connect Wemos-D1-mini(wifionuno) to UNO board <br><code>Uno -> D1-mini</code><br> 
 								 <code>3  ->   tx  </code> <br>
 								 <code>2  ->   rx  </code> <br>
 								 <code>5v ->   5v  </code> <br>
