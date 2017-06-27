@@ -18,6 +18,12 @@ This is a project rewrite in nodejs. Source is from https://github.com/SarahYuHa
 	<li><a href="https://wiki.wemos.cc/products:d1:d1_mini">Wemos D1 mini</a></li>
 </ul>
 
+## Problem with Arduino IDE and Wemos-D1-min
+<ul>
+	<li>Q1: I can't find Wemos-D1-mini in Arduino IDE(Tools > Board)? </li>
+		<p>You have to add this url <code>http://arduino.esp8266.com/stable/package_esp8266com_index.json</code> in Arduino > Perferences > Additional Boards Manager URLs, then update the board firmware using board manager(path: Tools > Board > Board Manager > search for ESP266 > install > Done  </p>
+</ul>
+
 ## step by step
 
 <ol>
