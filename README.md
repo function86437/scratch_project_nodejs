@@ -35,11 +35,14 @@ This is a project rewrite in nodejs. Source is from https://github.com/SarahYuHa
 
 # Start
 <ol>
-	<li>Connect Wemos-D1-mini(wifionuno) to UNO board <br><code>Uno -> D1-mini</code><br> 
+	<li>Connect Wemos-D1-mini(wifionuno) to UNO board(pin by pin)<br><code>Uno -> D1-mini</code><br> 
 								 <code>3  ->   tx  </code> <br>
 								 <code>2  ->   rx  </code> <br>
 								 <code>5v ->   5v  </code> <br>
 								 <code>GND->   G</code></li>
-	<li>Let Scratch listen on UNO. Simulate button pressed by connecting D2 and G on D1-mini</li>
+								 
+								 <img src="https://drive.google.com/file/d/0B5qUFLJ-331Vcmd2TUdLbjR5djQ/view?usp=sharing" alt="">
+	<li>Import project in Scratch and then press green flagto start the stage.</li>
+	<li>Let Scratch listen on UNO. Simulate button pressed by connecting pin of D2 and GND on D1-mini</li>
 
 </ol>
