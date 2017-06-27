@@ -1,6 +1,6 @@
 //config
-var HOST = 'IP';
-var PORT = PORT;
+var HOST = '192.168.0.107';
+var PORT = 8888;
 //Loadd TCP library
 var net = require('net');
 

@@ -68,9 +68,12 @@ void recvWifi(){
     // Check incoming ID, same ID can't inturrept itself in 10 sec.
     if(msg_ID != old_msg_ID){
       old_msg_ID = msg_ID;
+      lastDataReceivedTime = millis();
+      scratchBoardSensorReport(msg_in_pin, old_msg_ID);
     } else {
       if(10000 < (millis() - lastDataReceivedTime)){
         lastDataReceivedTime = millis();
+	scratchBoardSensorReport(msg_in_pin, old_msg_ID);
       }
       
     }
@@ -82,8 +85,6 @@ void recvWifi(){
   }
   delay(20); 
   
-  // Send to scratch
-  scratchBoardSensorReport(msg_in_pin, msg_ID);
 }
 
 //initial config of pins

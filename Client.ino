@@ -6,12 +6,12 @@
 WiFiClient wifiClient;
 
 //config
-#define SSID "SSID"
-#define PASSWD "PASSWD"
-#define TCP_IP "IP"
-#define TCP_PORT PORT
+#define SSID "LALALA"
+#define PASSWD "12346789"
+#define TCP_IP "192.168.0.107"
+#define TCP_PORT 8888 
 
-#define deviceID 1
+#define deviceID 2
 
 //pin config
 int in_msg = D0;
