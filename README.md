@@ -40,7 +40,7 @@ This is a project rewrite in nodejs. Source is from https://github.com/SarahYuHa
 								 <code>2  ->   rx  </code> <br>
 								 <code>5v ->   5v  </code> <br>
 								 <code>GND->   G</code>
-								 
+	<br>							 
 	<li>Import project in Scratch and then press green flagto start the stage.</li>
 	<li>Let Scratch listen on UNO. Simulate button pressed by connecting pin of D2 and GND on D1-mini</li>
 
@@ -91,6 +91,6 @@ This is a project rewrite in nodejs. Source is from https://github.com/SarahYuHa
 								 <code>3  ->   tx  </code> <br>
 								 <code>2  ->   rx  </code> <br>
 								 <code>5v ->   5v  </code> <br>
-								 <code>GND->   G</code>
-								 <li>匯入Scratch專案並按綠旗開始專案</li>
+								 <code>GND->   G   </code> <br>
+	<li>匯入Scratch專案並按綠旗開始專案</li>
 </ol>
