@@ -2,6 +2,10 @@ This is a project rewrite in nodejs. Source is from https://github.com/SarahYuHa
 
 # Installation
 
+* [Multi-WiFiS4A使用說明](goo.gl/t2iEq3)
+* [安裝教學](https://hackmd.io/s/SyjIY4ZVZ)
+* [安裝截圖說明](https://hackmd.io/s/B1bSCBzUb)
+
 ## tools
 ### software
 <ul>
